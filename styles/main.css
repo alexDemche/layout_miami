@@ -8,6 +8,10 @@ h1 {
   font-weight: normal;
   font-style: normal; }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 ol,
 p,
 h2 {
@@ -27,7 +31,7 @@ body {
 .header {
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(100vh - 90px);
+  height: 100vh;
   padding-top: 50px;
   padding-bottom: 40px; }
   .header__top {
@@ -235,5 +239,42 @@ body {
     cursor: pointer; }
 
 /* END button styles */
+/* Start Section Consultation */
+.consultation {
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+  padding: 150px 0; }
+  .consultation__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin-bottom: 40px; }
+  .consultation__subtitle {
+    font-size: 16px;
+    line-height: 24px; }
+  .consultation__flex-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .consultation__left {
+    max-width: 480px; }
+  .consultation__right {
+    max-width: 380px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+
+.form {
+  width: 100%;
+  font-size: 25px; }
+  .form__field {
+    width: 100%; }
+  .form__input {
+    width: 100%; }
+
+/* ./ Section Consultation */
 
 /*# sourceMappingURL=main.css.map */
